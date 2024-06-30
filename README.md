@@ -1,16 +1,32 @@
 # img_loader
 
-Fancy Image loader with some filters.
+Fancy Image loader with image filtering.
+
+## Tech
+ - Flutter
+ - http
+ - image
+ - bloc
+ - flutter_bloc
+ - equatable
+ - typed_data
+ - path_provider
+ - shimmer
+ - google_fonts
+ - shared_preferences
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Clone the repository
+2. Enter `cd [projectDir]`
+3. Run `flutter build apk --split-per-abi`
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How to use
+0. Download `.apk` from `Releases` page or build yourself
+1. Open app
+2. Click `+`
+3. Enter image `URL`
+4. Click `Submit`
+5. Wait till the end of downloading and processing
+6. Click `Save`
